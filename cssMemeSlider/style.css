@@ -152,3 +152,32 @@ input[name='dot'] {
     background-color: black;
     opacity: 0.85;
 }
+
+@media screen and (max-width: 768px) {
+    .slider {
+        padding: 4vw;
+        row-gap: 4vw;
+    }
+
+    .images__block,
+    .image {
+        height: 55vh;
+    }
+
+    .content__block {
+        height: 26vh;
+        gap: 4vw;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .content__description {
+        height: 384vh;
+        width: 100%;
+        order: 2;
+    }
+
+    .bar__block {
+        justify-content: center;
+    }
+}
